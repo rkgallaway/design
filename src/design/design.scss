@@ -1,3 +1,5 @@
+@import "variables";
+
 html {
   height: 100%;
   width: 100%;
@@ -6,7 +8,7 @@ html {
 #root {
   height: 100%;
   width: 100%;
-  background-color: burlywood;
+  background-color: $rootColor;
 }
 
 header {
