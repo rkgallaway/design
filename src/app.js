@@ -2,8 +2,11 @@ import React from "react";
 import Header from "./components/header/header.js";
 import Footer from "./components/footer/footer.js";
 import Content from "./components/content/content.js";
-import "./design/reset.scss";
-import "./design/design.scss";
+import "../styles/design/reset.scss";
+import "../styles/design/design.scss";
+import "../styles/core/_header.scss";
+import "../styles/core/_base.scss";
+import "../styles/core/_footer.scss";
 
 const App = () => {
   return (
