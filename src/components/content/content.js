@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import content from './content.json';
+import content from "./content.json";
 
-import Deck from '../deck/deck.js';
+import Deck from "../deck/deck.js";
 
 const Content = props => {
   return (
@@ -20,6 +20,31 @@ const Content = props => {
         neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
         volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
         luctus, metus
+      </p>
+      <p>
+        <from>
+          <fieldset>
+            <legend>Necessary Data</legend>
+            <label>
+              <span>Insert Name</span>
+              <input type="text" name="name" placeholder="name" />
+            </label>
+            <label>
+              <select>
+                <option value="1">One</option>
+                <option value="2">One</option>
+                <option value="3">One</option>
+                <option value="4">One</option>
+              </select>
+            </label>
+            <input type="radio" name="confrim" value="yes" /> Yes
+            <input type="radio" name="confrim" value="no" /> No
+            <input type="checkbox" name="option1" value="one" /> Option one
+            <input type="checkbox" name="option2" value="two" /> Option two
+            <input type="checkbox" name="option3" value="three" checked />{" "}
+            Option three
+          </fieldset>
+        </from>
       </p>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
