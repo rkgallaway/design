@@ -39,10 +39,34 @@ const Content = props => {
             </label>
             <input type="radio" name="confrim" value="yes" /> Yes
             <input type="radio" name="confrim" value="no" /> No
-            <input type="checkbox" name="option1" value="one" /> Option one
-            <input type="checkbox" name="option2" value="two" /> Option two
-            <input type="checkbox" name="option3" value="three" checked />{" "}
-            Option three
+            <div class="control-group">
+              <h1>Radio buttons</h1>
+              <label class="control control--radio">
+                First radio
+                <input type="radio" name="radio" checked="checked" />
+                <div class="control__indicator" />
+              </label>
+              <label class="control control--radio">
+                Second radio
+                <input type="radio" name="radio" />
+                <div class="control__indicator" />
+              </label>
+              <label class="control control--radio">
+                Disabled
+                <input type="radio" name="radio2" disabled="disabled" />
+                <div class="control__indicator" />
+              </label>
+              <label class="control control--radio">
+                Disabled & checked
+                <input
+                  type="radio"
+                  name="radio2"
+                  disabled="disabled"
+                  checked="checked"
+                />
+                <div class="control__indicator" />
+              </label>
+            </div>
           </fieldset>
         </from>
       </p>
@@ -59,6 +83,14 @@ const Content = props => {
         neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
         volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
         luctus, metus
+      </p>
+      <p>
+        <form action="#" class="simple-form">
+          <input type="text" placeholder="First Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Nick name" />
+          <input type="text" placeholder="Favorite pizza toping" />
+        </form>
       </p>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
