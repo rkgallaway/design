@@ -17,3 +17,19 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+@media (min-width: $breakpoint-tablet) {
+  #root {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  #root {
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+  }
+}
