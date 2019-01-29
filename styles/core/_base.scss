@@ -1,3 +1,5 @@
+@import "../lib/variables";
+
 main {
   width: 90%;
   margin: 0px auto;
@@ -46,7 +48,7 @@ main {
   transition: border-color 0.5s ease-out;
 }
 .simple-form input:optional {
-  border-left-color: rgb(139, 110, 110);
+  border-left-color: $formColor;
 }
 .simple-form input:required {
   border-left-color: rgb(173, 211, 173);
